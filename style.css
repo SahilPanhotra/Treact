@@ -8,6 +8,13 @@
 a {
     text-decoration: none;
 }
+.container {
+    padding: 32px;
+   }
+.row {
+    width: 100%;
+    max-width: 1280px;
+}
 /* NAVBAR  */
 
 .logo--img {
@@ -17,13 +24,24 @@ a {
 }
 .logo--text {
     font-size: 24px;
+    letter-spacing: 0.025em;
+    line-height: 36px;
     color: #243E63;
     font-style: bold;
     font-weight: 900;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none #243e63 solid;
+    text-decoration-thickness: auto;
+    padding-bottom: .25rem;
+    margin: 0 1.5rem 0 0;
+    border: 0 solid transparent;
+    cursor: pointer;
 }
+
+
+
 .nav__wrapper {
     display: flex;
     justify-content: space-between;
@@ -35,4 +53,28 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.a__link {
+    color: #243E63;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.025em;
+}
+.nav__link {
+    margin: 0 24px;
+}
+.nav__link--login {
+    margin-left: 48px;
+    margin-right: 24px;
+}
+.nav__link--primary {
+    padding: 10px 32px;
+    border-radius: 9999px;
+    background-color: #6415FF;
+    margin: 0;
+    line-height: 21px;
+    font-weight: 600;
+}
+.a__link--primary {
+    color: white;
 }
