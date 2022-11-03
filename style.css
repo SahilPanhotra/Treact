@@ -237,5 +237,9 @@ a {
     color: #7C8BA1;
     margin:16px 0 0;
     font-weight: 500;
-    line-height: 2;
+    line-height: 32px;
+    tab-size: 4;
+    text-align: left;
+    text-size-adjust: 100%;
+    max-width: 90%;
 }
